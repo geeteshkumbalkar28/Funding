@@ -1,0 +1,35 @@
+# Exclude compiled classes and build artifacts
+target/
+!target/donorbox-backend-0.0.1-SNAPSHOT.jar
+
+# Exclude IDE files
+.vscode/
+.idea/
+*.iml
+
+# Exclude OS files
+.DS_Store
+Thumbs.db
+
+# Exclude Git files
+.git/
+.gitignore
+
+# Exclude documentation
+README.md
+endpoints.md
+*.md
+
+# Exclude test files
+src/test/
+
+# Exclude Docker files themselves
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Exclude batch files
+*.bat
+
+# Exclude logs
+*.log
